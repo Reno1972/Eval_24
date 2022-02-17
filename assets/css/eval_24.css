@@ -1,0 +1,42 @@
+
+body{
+    background-color: #008080;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    font-size: xxx-large;
+    margin-top: 20px;
+}
+h2{
+    font-size: xx-large;
+}
+p{
+    margin-top: 30px;
+    font-size: x-large;
+}
+.container{
+
+    background-color:#66CDAA;
+    text-align: center;
+
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    border: dashed;
+    padding: 5rem;
+    width: 25em;
+}
+
+#btn{
+    color: #191970;
+    background-color: #8FBC8B;
+    font-size: larger;
+    padding: 1rem;
+    margin-top: 3em;
+    text-align: center;
+    margin-right: auto;
+}
+.enter_number{
+    margin-top: 80px;
+}
