@@ -43,19 +43,19 @@ function increment(){
 }
 
 function verfification(){
-    if(numberSelector.value<0 || numberSelector.value>1000){
+    if(numberSelector.value<0 || numberSelector.value>1000 //|| isNaN(numberSelector){
         message.textContent="Attention, le nombre n'est pas compris entre 0 et 1000 !"
     }else{
         let inputSelector = numberSelector.value;
         if(inputSelector<randomNumber){
-            increment;
+            increment; //tu va avoir un soucis car tu à oublier les () à la fin pour appeler la fonction
             message.innerText="Votre nombre est trop petit !";
         }else if(inputSelector>randomNumber){
             increment;
             message.innerText="Votre nombre est trop grand !";}
         else{
             increment;
-            message.textContent=`Bravo, vous avez trouvé le nombre exact !`;
+            message.textContent=`Bravo, vous avez trouvé le nombre exact ! il t'a fallus ${compt} coups pour trouvé` ; 
         }
     }
 
